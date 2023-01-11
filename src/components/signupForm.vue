@@ -26,12 +26,12 @@ export default{
             <option value="designer">Web Designer</option>
         </select>
 
-        <!-- <div class="terms">
+        <div class="terms">
             <input type="checkbox" v-model="terms" required>
             <label>Accept terms and conditions</label>
         </div>
 
-        <div>
+        <!-- <div>
             <input type="checkbox" value="shaun" v-model="names">
             <label>Shaun</label>
         </div>
@@ -43,13 +43,11 @@ export default{
             <input type="checkbox" value="mario" v-model="names">
             <label>Mario</label>
         </div> -->
-        
     </form>
     <p>Email: {{ email }}</p>
     <p>Passord: {{ password }}</p>
     <p>Role: {{ role }}</p>
     <p>Terms accepted {{ terms }}</p>
-    <p>Names: {{ names }}</p>
 </template>
 
 <style>
